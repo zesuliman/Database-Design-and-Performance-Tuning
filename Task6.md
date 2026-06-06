@@ -1,7 +1,7 @@
 Key Takeaways:
 -  Understanding the Optimizer :Before executing a query, MySQL analyzes it to decide whether to perform a full table scan (most expensive) or use an index (typically more efficient).
 -  Use EXPLAIN to view the anticipated execution plan.
-![using the Explain statement \](pic1.png)
+![using the Explain statement](pic1.png)
 -  
 Use EXPLAIN ANALYZE to see both the estimation and the actual execution time and row counts, helping to identify where the optimizer might be making poor decisions.
 Formats for Analysis (3:21 - 6:30): The video discusses different output formats, highlighting the tree-style format as the modern, preferred way to visualize the relationship and order of execution between query subtasks.
